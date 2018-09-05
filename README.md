@@ -4,9 +4,10 @@
 To make it easy for readers to locate the models, the projects are named by the rule of Year-Author-Journal-FirstTitleWord. "TBD" means to be determined for unpublished codes.
 
 # Projects
-* 2016-Sperry-NewPhytologist-Pragmatic : A model to combine the VCs of root, stem, and leaf into an integrated tree VC
-* 2015-Wang-PlantPhysiology-Stem : A model to determine the bubble pressure in conduits of recently cavitated stem
-* 2015-Wang-PlantPhysiology-Studies : A model to determine the bubble pressure in conduits of recently cavitated stem
+* 2016-Sperry-NewPhytologist-Pragmatic : Combine the VCs of root, stem, and leaf into an integrated tree VC
+* 2015-Wang-PlantPhysiology-Stem : Determine the bubble pressure in conduits of recently cavitated stem from two points
+* 2015-Wang-PlantPhysiology-Studies : Determine the bubble pressure in conduits of recently cavitated stem from a curve
 
 # TBD
-* TBD-1 : Simple model of how bubble pressure impacts hydraulic conductivity measurements
+* TBD-Wang-TBD-Bubble : How bubble pressure impacts hydraulic conductivity measurements
+* TBD-Wang-TBD-GcError : Computing Gc error from leaf anatomical parameters
