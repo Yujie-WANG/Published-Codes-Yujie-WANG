@@ -12,4 +12,6 @@ Pylon version 4 should be used, but it is difficult to find on their website bec
 
 I have not used the centrifuge for years. The software is re-compiled in 2018 and should run without any problem.
 
+Note: in some versions, you must end the file name with .cam, otherwise the program crashes; in some versions, the program stops running after 2017. This uploaded version does not have such problems.
+
 Yujie on 2019-Feb-8
