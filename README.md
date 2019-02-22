@@ -9,6 +9,7 @@ To make it easy for readers to locate the models, the projects are named by the 
 * 2016-Sperry-NewPhytologist-Pragmatic : Combine the VCs of root, stem, and leaf into an integrated tree VC
 * 2015-Wang-PlantPhysiology-Stem : Determine the bubble pressure in conduits of recently cavitated stem from two points
 * 2015-Wang-PlantPhysiology-Studies : Determine the bubble pressure in conduits of recently cavitated stem from a curve
+* 2014-Wang-JournalofPlantHydraulics-Improved : Software for Chinatron and brief manual
 
 # TBD
 * TBD-Wang-TBD-Bubble : How bubble pressure impacts hydraulic conductivity measurements
