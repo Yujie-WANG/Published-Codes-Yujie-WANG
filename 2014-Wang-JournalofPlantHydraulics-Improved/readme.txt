@@ -13,4 +13,7 @@ I have not used the centrifuge for years. The software is re-compiled in 2018 an
 Note: in some versions, you must end the file name with .cam, otherwise the program crashes; in some versions, the program stops running after 2017. This uploaded version does not have such problems.
 
 Yujie on 2019-Feb-22
-A .doc manual written by Feng Feng and Melvin Tyree should be made available as well. I will ask for Feng for the copyright and make it available here as well.
+A manual written by Feng Feng and Melvin Tyree should be made available as well. I will ask for Feng for the copyright and make it available here as well.
+
+Yujie on 2019-Mar-05
+The manual has been made available. Thank Feng F.. The manual is "20180703-FF-Manual-camera system.pdf".
