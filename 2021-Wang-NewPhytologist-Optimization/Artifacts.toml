@@ -1,0 +1,8 @@
+# TODO rename wyujie to main once the changes are merged
+[2020_nocturnal_gs]
+git-tree-sha1 = "7db98944ecf8492577a654dc40310b7c15e161f2"
+lazy = true
+
+    [[2020_nocturnal_gs.download]]
+    sha256 = "3cb1093dece207fb0efe96619f6f31de0324535fb38277481d93d80d1c9ea1b4"
+    url = "https://github.com/Yujie-W/ResearchArtifacts/raw/wyujie/2020_nocturnal_gs/2020_nocturnal_gs.tar.gz"

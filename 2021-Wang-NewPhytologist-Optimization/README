@@ -1,0 +1,8 @@
+Steps to use the script
+- install julia (best use Julia 1.5.3, which the code has been tested on)
+- `cd` into the home directory of the project
+- run `julia --project`
+- type `]` in Julia promote to enter Pkg mode (run only at 1st time)
+- type `instantiate` to install the dependencies (run only at 1st time)
+- type BACKSPACE to go back to julia mode (run only at 1st time)
+- within Julia promote, copy and paste the commands in `2020_nocturnal_gs.jl`
