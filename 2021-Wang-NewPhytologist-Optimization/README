@@ -1,3 +1,9 @@
+Note that the functions to plot figures use LaTex to render the text and math.
+    Ensure that you have LaTex and necessary packages installed if you want to
+    run the plotting functions directly. Otherwise, you need to remove the
+    parts that uses LaTex renders, and you may identify them by searching `\$`
+    in the code.
+
 Steps to use the script
 - install julia (best use Julia 1.5.3, which the code has been tested on)
 - `cd` into the home directory of the project
