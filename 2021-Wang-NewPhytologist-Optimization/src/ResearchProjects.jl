@@ -39,8 +39,7 @@ export AbstractProject,
 export create_spac
 
 # export 2020_nocturnal_gs functions
-export fitness_factor,
-       optimal_en_gn,
+export optimal_en_gn,
        plot_gswn_vs_time,
        plot_model_comparison,
        plot_model_extension,
@@ -62,7 +61,6 @@ include("general/create_spac.jl")
 # project NocturnalGS2020
 include("2020_nocturnal_gs/figures.jl"  )
 include("2020_nocturnal_gs/gain_risk.jl")
-include("2020_nocturnal_gs/fitness_factor.jl"   )
 
 
 

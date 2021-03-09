@@ -52,7 +52,7 @@ function plot_model_framework(
     ax1,ax2,ax3 = axs;
 
     ax1.plot(list_e .* 1000, list_t .- 273.15, "k-");
-    ax2.plot(list_e .* 1000, list_r, "r-", label=LS_Rn);
+    ax2.plot(list_e .* 1000, list_r, "r-", label=LS_Rleaf);
     ax2.plot(list_e .* 1000, list_a, "c-", label=LS_Ad);
     ax3.plot(list_e .* 1000, list_b, "r-", label=LS_n_∂Rn∂En);
     ax3.plot(list_e .* 1000, list_c ./ 10, "c-", label=LS_ff_∂Θd∂Ed);
@@ -64,7 +64,7 @@ function plot_model_framework(
     set_ylims!(axs, [[22.9,24], [0,6.6], [0,240]]);
     set_xlabels!(axs, [LS_E_unit_m for i in 1:3]);
     set_ylabels!(axs, [LS_Tleaf_unit,
-                       LS_Rn * " or " * LS_Ad * "\n" * latex_unit("A"),
+                       LS_Rleaf * " or " * LS_Ad * "\n" * latex_unit("A"),
                        "Margian gain or cost\n" * latex_unit("WUE")]);
     set_titles!(axs, loc="left");
 
@@ -181,7 +181,7 @@ function plot_model_prediction(
     can.ps.Rd25 = 1.3;
     generate_curves();
     ax4.plot(list_e .* 1000, list_b, "r--");
-    ax4.plot(list_e .* 1000, list_c ./ 10, "c--", label="Higher " * LS_Rn);
+    ax4.plot(list_e .* 1000, list_c ./ 10, "c--", label="Higher " * LS_Rleaf);
     ax4.plot(1.076, 144.95, "o", color="gray" , markersize=8);
     ax4.plot(1.846, 184.54, "o", color="black", markersize=8);
     ax4.annotate("", xy=(1.747,188), xytext=(1.05,151), arrowprops=ARROW_K);
@@ -687,8 +687,8 @@ function plot_model_comparison(
     # set labels and limits
     ax1.set_xlim( 0.20,2.0);
     ax1.set_ylim(-0.01,0.4);
-    ax1.set_ylabel(LS_gwn_unit, fontsize=16);
-    ax1.set_xlabel(LS_Rn_unit  , fontsize=16);
+    ax1.set_ylabel(LS_gwn_unit  , fontsize=16);
+    ax1.set_xlabel(LS_Rleaf_unit, fontsize=16);
 
     # save figure
     fig.set_tight_layout(true);
@@ -743,8 +743,8 @@ function plot_model_comparison(
     # set labels and limits
     ax1.set_xlim( 0.20,2.0);
     ax1.set_ylim(-0.01,0.4);
-    ax1.set_ylabel(LS_gwn_unit, fontsize=16);
-    ax1.set_xlabel(LS_Rn_unit  , fontsize=16);
+    ax1.set_ylabel(LS_gwn_unit  , fontsize=16);
+    ax1.set_xlabel(LS_Rleaf_unit, fontsize=16);
 
     # save figure
     fig.set_tight_layout(true);
@@ -824,10 +824,10 @@ function plot_gswn_vs_time(
     # set labels and limits
     ax1.set_xlim(0.40,1.6);
     ax1.set_ylim(0.02,0.1);
-    ax1.set_ylabel(LS_gwn_unit, fontsize=16);
-    ax1.set_xlabel(LS_Rn_unit  , fontsize=16);
-    ax2.set_xlabel("Time (min)", fontsize=16);
-    tx2.set_ylabel(LS_Rn_unit  , fontsize=16);
+    ax1.set_ylabel(LS_gwn_unit  , fontsize=16);
+    ax1.set_xlabel(LS_Rleaf_unit, fontsize=16);
+    ax2.set_xlabel("Time (min)" , fontsize=16);
+    tx2.set_ylabel(LS_Rleaf_unit, fontsize=16);
     set_titles!(axs, labels=String[], loc="left");
 
     # save figure

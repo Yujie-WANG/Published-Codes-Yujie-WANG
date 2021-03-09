@@ -5,7 +5,7 @@ using ResearchProjects
 
 FT     = Float32;
 proj   = NocturnalGS2020{FT}();
-saving = false;
+saving = true;
 
 @info "Now plotting Fig. 1...";
 plot_model_framework(proj; saving=saving);

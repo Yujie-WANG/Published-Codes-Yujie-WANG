@@ -22,7 +22,7 @@ const LS_Pleaf = latex_symbol("P", sub="leaf" );
 const LS_Kx    = latex_symbol("K", sub="x"    );
 const LS_Psoil = latex_symbol("P", sub="soil" );
 const LS_Rbase = latex_symbol("R", sub="base" );
-const LS_Rn    = latex_symbol("R", sub="n"    );
+const LS_Rleaf = latex_symbol("R", sub="leaf" );
 const LS_Tleaf = latex_symbol("T", sub="leaf" );
 const LS_Vcmax = latex_symbol("V", sub="cmax" );
 
@@ -34,8 +34,8 @@ const LS_ff_∂Ad∂Ed  = "\$f_\\mathrm{f} \\cdot " *
 const LS_ff_∂Θd∂Ed  = "\$f_\\mathrm{f} \\cdot " *
                       "\\partial \\Theta_\\mathrm{d} /" *
                       "\\partial E_\\mathrm{d}\$";
-const LS_∂Rn∂En     = "\$\\partial R_\\mathrm{n} / \\partial E_\\mathrm{n}\$";
-const LS_n_∂Rn∂En   = "\$-\\partial R_\\mathrm{n} / \\partial E_\\mathrm{n}\$";
+const LS_∂Rn∂En     = "\$\\partial R_\\mathrm{leaf} / \\partial E_\\mathrm{n}\$";
+const LS_n_∂Rn∂En   = "\$-\\partial R_\\mathrm{leaf} / \\partial E_\\mathrm{n}\$";
 
 const LS_Anet_unit  = LS_Anet * " " * latex_unit("A");
 const LS_Ca_unit    = LS_Ca * " (ppm)";
@@ -53,7 +53,7 @@ const LS_NEE_unit   = "NEE " * latex_unit("A");
 const LS_PAR_unit   = "PAR " * latex_unit("PAR");
 const LS_Pleaf_unit = LS_Pleaf * " (MPa)";
 const LS_Psoil_unit = LS_Psoil * " (MPa)";
-const LS_Rn_unit    = LS_Rn * " " * latex_unit("A");
+const LS_Rleaf_unit = LS_Rleaf * " " * latex_unit("A");
 const LS_Rbase_unit = LS_Rbase * " " * latex_unit("A");
 const LS_SIF_unit   = "SIF (mW m\$^{-2}\$ sr\$^{-1}\$ nm\$^{-1}\$)";
 const LS_Tleaf_unit = LS_Tleaf * " (\$^{\\circ}\$C)";
