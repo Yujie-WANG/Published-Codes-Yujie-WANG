@@ -1,7 +1,7 @@
 [2021_forest_tower_data]
-git-tree-sha1 = "fbde7e283d29dd10ce0b064f359b8431a7871eff"
+git-tree-sha1 = "9f4dc26307b97df68e847227abb067fc186d46f8"
 lazy = true
 
     [[2021_forest_tower_data.download]]
-    sha256 = "eae8240b9aafca45b78e4383ffb15ed8e7bcbe353ba4eebb6334e2bc9d1d2ed6"
+    sha256 = "95f074c37d8e37c68d3b27e3a276997bcd8871e146ed3f00301e8e4a95bc0150"
     url = "https://github.com/Yujie-W/ResearchArtifacts/raw/wyujie/flux_tower/2021_forest_tower_data.tar.gz"
