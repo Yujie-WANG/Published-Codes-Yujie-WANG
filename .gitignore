@@ -1,3 +1,4 @@
 *.pdf
 
 !/publications/*
+.vscode/settings.json
