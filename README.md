@@ -7,6 +7,7 @@ To make it easy for readers to locate the models, the projects are named by the 
 | Folder                                                     | Description                                                                               |
 |:-----------------------------------------------------------|:------------------------------------------------------------------------------------------|
 | 2023-Wang-CropandEnvironment-Silico                        | Julia code for the prototype models for crop studies                                      |
+| 2023-Braghiere-AGUAdvances-Importance                      | Julia code for the hyperspectral soil albedo project                                      |
 | 2023-Wang-JournalofAdvancesinModelingEarthSystems-Modeling | Julia code used to plot the figures used in CliMA Land global simulations                 |
 | 2022-Wang-Biogeosciences-Common                            | Julia code used to plot the figure for plant hydraulics models                            |
 | 2022-Wang-ScientificData-GriddingMachine                   | Julia code used to plot the figure for GriddingMachine illustration                       |
