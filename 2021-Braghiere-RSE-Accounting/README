@@ -1,0 +1,25 @@
+Note that the functions to plot figures use LaTex to render the text and math.
+    Ensure that you have LaTex and necessary packages installed if you want to
+    run the plotting functions directly. Otherwise, you need to remove the
+    parts that uses LaTex renders, and you may identify them by searching `\$`
+    in the code.
+
+Steps to use the script
+- install julia (best use Julia 1.6.1, which the code has been tested on)
+- `cd` into the home directory of the project
+- run `julia --project`
+- type `]` in Julia promote to enter Pkg mode (run only at 1st time)
+- type `instantiate` to install the dependencies (run only at 1st time)
+- type BACKSPACE to go back to julia mode (run only at 1st time)
+- within Julia promote, copy and paste the commands below
+
+```julia
+using ResearchProjects;
+proj = ClumpingFactor2020{Float64}();
+fit_leafbio(proj);
+sif_simulation!(proj);
+```
+
+Note that you need to obtain the necessary data file and change the location
+    folder path to run the `sif_simulation!` function. I don't have the
+    permission to share others' data.

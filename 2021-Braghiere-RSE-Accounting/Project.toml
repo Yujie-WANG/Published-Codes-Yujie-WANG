@@ -1,0 +1,23 @@
+name = "ResearchProjects"
+uuid = "7ac53053-ca13-4677-a408-46de11f9d7db"
+authors = ["Yujie Wang <jesiner@gmail.com>"]
+version = "1.0.0"
+
+[deps]
+CanopyLayers = "677f5362-5107-42e4-8e81-51d9c4a1f96c"
+ConstrainedRootSolvers = "7e2492bd-0955-4089-8696-9df2af57a479"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+PkgUtility = "0d262f2c-28e9-492c-8e19-d7a5c4f11611"
+PlotPlants = "62700b34-1872-4917-b6af-4f42ae699f38"
+SoilPlantAirContinuum = "2d76e174-5bec-4df2-b5ea-844408736dc2"
+UnPack = "3a884ed6-31ef-47d7-9d2a-63182c4928ed"
+
+[compat]
+CanopyLayers = "0.1.7"
+ConstrainedRootSolvers = "0.1.1"
+DataFrames = "0.22, 1.0"
+PkgUtility = "0.1.9"
+PlotPlants = "0.1.11"
+SoilPlantAirContinuum = "0.1.10"
+UnPack = "1.0"
+julia = "1.6"
