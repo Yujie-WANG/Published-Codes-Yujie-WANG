@@ -1,0 +1,9 @@
+[deps]
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+Emerald = "56ca4449-d59c-41e3-9ae8-0f89b45aadb6"
+GriddingMachine = "f20cf718-bf4d-4727-bc8f-485b1f283ac6"
+NetcdfIO = "6a36f34d-89cf-423a-87c4-84549e82f670"
+ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
+
+[compat]
+julia = "1.7"
