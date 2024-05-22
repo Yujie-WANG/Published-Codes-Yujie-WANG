@@ -6,7 +6,8 @@ To make it easy for readers to locate the models, the projects are named by the 
 ## Projects
 | Folder                                | Description                                                                               |
 |:--------------------------------------|:------------------------------------------------------------------------------------------|
-| 2024-Wang_JAMES-Toward                | Julia and Python code used for data analysis and plotting                                 |
+| 2024-Wang-GCB-Beyond                  | Julia and Python code used for data analysis and plotting                                 |
+| 2024-Wang-JAMES-Toward                | Julia and Python code used for data analysis and plotting                                 |
 | 2023-Wang-CROPE-Agriculture           | Julia code for the prototype models for crop studies                                      |
 | 2023-Braghiere-AGUAdvances-Importance | Julia code for the hyperspectral soil albedo project                                      |
 | 2023-Wang-JAMES-Modeling              | Julia code used to plot the figures used in CliMA Land global simulations                 |
