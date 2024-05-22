@@ -23,7 +23,7 @@ old_df = DataFrame(WL       = old_spectra.Λ,
 # 2. extend the spectra for CAB
 begin
     # extend the old spectra to match the wavelength bins of the new df
-    new_chl = read_csv("../../../data/k_chl.csv");
+    new_chl = read_csv("../data/k_chl.csv");
     new_chl[!,"REF_K"] .= NaN;
     for i in eachindex(new_chl.WL)
         if new_chl.WL[i] >= 400
@@ -57,7 +57,7 @@ begin
 end;
 
 # 4. per file, extend the UV part of the carotenoid absorption spectrum in the old_df file
-files = ["../../../data/k_car-1.csv", "../../../data/k_car-2.csv", "../../../data/k_car-3.csv"];
+files = ["../data/k_car-1.csv", "../data/k_car-2.csv", "../data/k_car-3.csv"];
 kcarvs = [];
 kcarzs = [];
 for file in files
@@ -109,7 +109,7 @@ end;
 # 5. extend the UV part of the LMA absorption spectrum in the old_df file
 begin
     # extend the old spectra to match the wavelength bins of the new df
-    new_lma = read_csv("../../../data/k_lma.csv");
+    new_lma = read_csv("../data/k_lma.csv");
     new_lma[!,"REF_K"] .= NaN;
     for i in eachindex(new_lma.WL)
         if new_lma.WL[i] >= 400

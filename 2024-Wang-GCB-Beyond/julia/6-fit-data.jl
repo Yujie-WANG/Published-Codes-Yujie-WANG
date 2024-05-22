@@ -30,8 +30,8 @@ end;
 local_par = similar(CONFIG.SPECTRA.Λ);
 local_far = similar(CONFIG.SPECTRA.Λ);
 if !isfile(spectra_file)
-    white_light = read_csv("../../../data/white-light.csv");
-    farred_light = read_csv("../../../data/farred-light.csv");
+    white_light = read_csv("../data/white-light.csv");
+    farred_light = read_csv("../data/farred-light.csv");
     max_par,min_par = maximum(white_light.WL),minimum(white_light.WL);
     max_far,min_far = maximum(farred_light.WL),minimum(farred_light.WL);
     for i in eachindex(CONFIG.SPECTRA.Λ)
@@ -73,7 +73,7 @@ end;
 
 # 3. use the SPAC model to fit the data (fit Vcmax and Chl only)
 if !isfile(output_data)
-    input_data = "../../../data/par-fr-gpp.csv";
+    input_data = "../data/par-fr-gpp.csv";
     indata = read_csv(input_data);
 
     # iterate through the data per TREE
